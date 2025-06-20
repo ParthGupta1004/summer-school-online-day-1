@@ -1,0 +1,31 @@
+Q1. What each HTML Element does
+Ans: 
+<html>: The root element that wraps all the content on the webpage.
+<head>: Contains meta-information like title, stylesheets and character encoding.
+<title>: Sets the title of the webpage shown on the browser tab.
+<body>: Holds all the visible content of the webpage.
+<header>: Represents the top section of the page, often used for logos or page titles.
+<nav>: Defines the navigation links/menu of the website.
+<main>: The primary content area of the webpage.
+<section>: Groups related content together within the main area.
+<form>: Used to collect user input through various form controls.
+<input>: Accepts user data; the type of input varies (text, email, password, etc.).
+<label>: Describes the purpose of each input field for accessibility.
+<button>: A clickable button used to submit forms or trigger actions.
+<footer>: Contains the bottom content of the page, like copyright.
+
+Q2. Why I chose specific Input Types
+Ans:
+type="text": Used for standard, single-line text input like name or city.
+type="email": Ensures the user inputs a valid email format and provides basic validation.
+type="password": Hides the characters typed by the user for privacy.
+type="submit": Allows the form data to be sent when clicked.
+type="number": Restricts input to numeric values, used for age or quantity fields.
+type="checkbox": Lets users select one or more options independently.
+type="radio": Used for mutually exclusive choices like selecting a gender.
+
+Q3. How my Navigation structure works
+Ans:
+The <nav> element is used to organize the main links of the website.
+Each <a> tag inside a list item links to a different section or page, making navigation clear and accessible.
+

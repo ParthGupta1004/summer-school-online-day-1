@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <nav>
+        <a href ="portfolio.html">Home | </a>
+        <a href = "about1.html">About | </a>
+        <a href = "contact1.html"> Contact</a>
+    </nav>
+    <br/>
+    <br/>
+    <form>
+        <label for="name">Name:</label><input type="text" id="name" required><br/><br/>
+        <label for="email">Email:</label><input type="email" id="email" required><br/><br/>
+        <label for="phone">Phone:</label><input type="tel" id="phone" required><br/><br/>
+        <label for="date">Date:</label><input type="date" id="date" required><br/><br/>
+        <label for="message">Your Message:</label><br/>
+        <textarea id="message" rows="5" cols = "40" placeholder="Type your message here..." required></textarea><br/><br/>
+
+        <label for="inquiry-type">Select Inquiry Type:</label><br/>
+        <label for="general">General</label>
+        <input type="radio" id="general" name="inquiry-type" value="general"><br/>
+        <label for="business">Business</label>
+        <input type="radio" name="inquiry-type" value="business"><br/>
+        <label for="support">Support</label>
+        <input type="radio" name="inquiry-type" value="support"><br/><br/>
+        
+        <label for="contact-methods">Contact Methods:</label><br/>
+        <label for="email">Email</label>
+        <input type="checkbox" id="email" name="contact-methods" value="email"><br/>
+        <label for="Phone">Phone</label>
+        <input type="checkbox" id="phone" name="contact-methods" value="phone"><br/>
+        <label for="text">Text</label>
+        <input type="checkbox" id="text" name="contact-methods" value="text"><br/><br/>
+
+        <p>Give Feedback</p>
+        <label for="rating">Rating</label><input type="range" min="1" max="10" id="rating" name="rating">
+    <br/><br/>
+        <label for="">Platform To Connect</label>
+        <select name="options" id="options">
+            <option value="">--Select an platform--</option>
+            <option value="option1">LinkedIn</option>
+            <option value="option2">Instagram</option>
+            <option value="option3">Facebook</option>
+        </select><br/><br/>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
